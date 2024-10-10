@@ -1,0 +1,20 @@
+package com.company;
+import java.util.Scanner;
+
+public class CWH_13_Ch3_Strings {
+    public static void main(String[] args) {
+        //String name = new String("Harry");
+        //String name = "Harry";
+        //System.out.print("The name is: ");
+        //System.out.println(name);
+        int a = 6;
+        float b = 2.5555f;
+        System.out.printf("The value of a is %d and The value of b is %10.2f. ", a , b);
+
+//        Scanner sc = new Scanner(System.in);
+//        String st = sc.nextLine();
+//        System.out.println(st);
+
+
+    }
+}
