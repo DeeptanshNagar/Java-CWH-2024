@@ -81,7 +81,6 @@ public class cwh_39_ch8ps {
         System.out.println(sq.perimeter());
         System.out.println(sq.area());
 
-
         // Problem 4
         Rectangle rc = new Rectangle();
         rc.length = 4;
