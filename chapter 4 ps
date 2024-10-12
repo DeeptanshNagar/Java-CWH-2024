@@ -94,7 +94,6 @@ public class cwh_19_ch4_ps4 {
         else{
             System.out.println("This is an Indian website.");
         }
-
         }
 
     }
