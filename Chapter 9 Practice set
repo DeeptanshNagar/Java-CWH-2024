@@ -1,0 +1,103 @@
+package com.company;
+
+class Employee1{
+    int salary;
+    String name;
+
+    public int getSalary(){
+        return salary;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setName(String n){
+        name = n;
+    }
+}
+class Cellphone{
+    public void ring(){
+        System.out.println("Ringing...");
+    }
+    public void vibrate(){
+        System.out.println("Vibrating...");
+    }
+    public void CallFriend(){
+        System.out.println("Calling Vansh...");
+    }
+}
+
+class Square{
+    int side;
+    public int area(){
+        return side*side;
+    }
+    public int perimeter(){
+        return 4*side;
+    }
+}
+
+class Rectangle{
+    int length;
+    int width;
+
+    public int area(){
+        return length*width;
+    }
+    public int perimeter(){
+        return (length+width)*2;
+    }
+}
+
+class Tommy{
+    public void hit(){
+        System.out.println("Hiting the Enemy!");
+    }
+    public void run(){
+        System.out.println("Running from the Enemy!");
+    }public void fire(){
+        System.out.println("Firing on the Enemy!");
+    }
+}
+public class cwh_39_ch8ps {
+    public static void main(String[] args) {
+        /*
+        // Problem 1
+        Employee1 harry = new Employee1();
+        harry.setName("CodeWithHarry");
+        harry.salary = 23000;
+        System.out.println(harry.getSalary());
+        System.out.println(harry.getName());
+
+        // Problem 2
+        Cellphone asus = new Cellphone();
+        asus.CallFriend();
+        asus.vibrate();
+        asus.ring();
+
+
+        // Problem 3
+        Square sq = new Square();
+        sq.side = 5;
+        System.out.println(sq.perimeter());
+        System.out.println(sq.area());
+
+
+        // Problem 4
+        Rectangle rc = new Rectangle();
+        rc.length = 4;
+        rc.width = 7;
+        System.out.println(rc.area());
+        System.out.println(rc.perimeter());
+        */
+
+        // Problem 5
+        Tommy player1 = new Tommy();
+        player1.hit();
+        player1.run();
+        player1.fire();
+
+
+
+
+    }
+}
