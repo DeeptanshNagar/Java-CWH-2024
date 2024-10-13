@@ -1,0 +1,35 @@
+package com.company;
+class Phone{
+    public void greet(){
+        System.out.println("Good Morning!");
+    }
+    public void name(){
+        System.out.println("My name is Java");
+    }
+}
+class SmartPhone extends Phone{
+    public void swagat(){
+        System.out.println("Aapka swagat hai");
+    }
+    public void name(){
+        System.out.println("My name is Java in class SmartPhone");
+    }
+}
+public class cwh_49_dynamic_mthd_dispatch {
+    public static void main(String[] args) {
+//        Phone obj = new Phone();  // Allowed
+//        obj.name();
+
+//        SmartPhone spobj = new SmartPhone(); // Allowed
+//        spobj.name();
+
+        Phone obj = new SmartPhone();  // Yes it is Allowed.
+        obj.greet();
+
+//        Smartphone obj = new Phone(); // Not Allowed #Error
+
+
+
+
+    }
+}
