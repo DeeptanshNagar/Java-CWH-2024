@@ -1,0 +1,42 @@
+package com.company;
+interface Bicycle{
+    int a = 45;
+    void applyBrake(int decrement);
+    void speedUp(int increment);
+}
+interface HornBicycle{
+    public void blowHornk3g();
+    public void blowHornmhn();
+}
+class AvonCycle implements  Bicycle , HornBicycle{
+    void blowHorn(){
+        System.out.println("Pee Pee!!  Poo Poo!!");
+    }
+    public void applyBrake(int decrement){
+        System.out.println("Applying Brake");
+    }
+    public void speedUp(int increment){
+        System.out.println("Applying SppedUP");
+    }
+    public void blowHornk3g(){
+        System.out.println("Kabhi Khushi Kabhi Gum Pee Pee Pee Pee");
+    }
+    public void blowHornmhn(){
+        System.out.println("Mai hoon na Poo Poo Poo Poo");
+    }
+}
+public class cwh_54_interfaces {
+    public static void main(String[] args) {
+        AvonCycle cycle = new AvonCycle();
+        cycle.applyBrake(5);
+        // You can create properties in Interfaces
+        System.out.println(cycle.a);
+        // You cannot modify the properties in Interfaces as they are final
+        // cycle.a = 454;
+        // System.out.println(cycle.a);
+
+        cycle.blowHornk3g();
+        cycle.blowHornmhn();
+        
+    }
+}
