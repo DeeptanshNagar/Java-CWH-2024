@@ -1,0 +1,40 @@
+package com.company;
+
+class Rectangle2{
+    Rectangle2(){
+        System.out.println("WoW");
+    }
+    public int length;
+    public int breadth;
+
+    Rectangle2(int l , int b){
+        System.out.println("I am rectangle parameterized constructor");
+        this.length = l;
+        this.breadth = b;
+    }
+    public double area (){
+        return length * breadth;
+    }
+}
+class Cuboid extends Rectangle2{
+    Cuboid(int l , int b , int h){
+        super(l,b);
+        System.out.println("I am Cuboid parameterized constructor");
+        this.height = h;
+    }
+    public int height;
+    public double volume(){
+        return length * breadth * height;
+    }
+}
+
+
+public class cwh_52_ps10 {
+    public static void main(String[] args) {
+        Rectangle2 obj = new Rectangle2(2,3);
+        System.out.println(obj.area());
+        Cuboid obj2 = new Cuboid(2,3,6);
+        System.out.println(obj2.volume());
+
+    }
+}
