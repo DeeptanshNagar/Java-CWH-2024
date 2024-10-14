@@ -28,7 +28,6 @@ class Cuboid extends Rectangle2{
     }
 }
 
-
 public class cwh_52_ps10 {
     public static void main(String[] args) {
         Rectangle2 obj = new Rectangle2(2,3);
