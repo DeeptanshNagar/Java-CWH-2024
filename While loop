@@ -6,7 +6,6 @@ public class cwh_21_ch5_while_loops {
         while(i<=200) {
             System.out.println(i);
             i++;
-
         }
     }
 }
