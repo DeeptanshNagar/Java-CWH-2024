@@ -6,11 +6,13 @@ public class cwh_27_java {
 //        float [] marks = {23.5f , 25.5f, 56.5f, 34.5f , 55.5f};
 //        System.out.println(marks.length);
 //        System.out.println(marks[0]);
+
 //----------------------------------------------------------------------------------------
 //        String [] students = {"diptansh" , "vanshika" , "yukta" , "sharmishtha"};
 //        System.out.println(students.length);
 //        System.out.println(students[3]);
 //-----------------------------------------------------------------------------------------
+
         int [] marks = {23 , 25, 56, 34, 55};
         System.out.println(marks.length);
 
