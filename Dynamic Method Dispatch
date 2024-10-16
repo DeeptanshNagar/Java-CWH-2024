@@ -27,6 +27,5 @@ public class cwh_49_dynamic_mthd_dispatch {
         obj.greet();
 
 //        Smartphone obj = new Phone(); // Not Allowed #Error
-
     }
 }
