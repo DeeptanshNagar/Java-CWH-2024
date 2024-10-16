@@ -18,7 +18,6 @@ public class cwh_28_multi_dim_arrays {
                 System.out.print(" ");
             }
             System.out.println();
-
         }
     }
 }
