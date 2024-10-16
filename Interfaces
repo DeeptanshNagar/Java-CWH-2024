@@ -37,6 +37,5 @@ public class cwh_54_interfaces {
 
         cycle.blowHornk3g();
         cycle.blowHornmhn();
-        
     }
 }
