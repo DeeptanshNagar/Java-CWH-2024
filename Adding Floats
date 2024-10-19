@@ -19,3 +19,5 @@ public class AddingFloatValue {
 //        System.out.println(str);
     }
 }
+
+
