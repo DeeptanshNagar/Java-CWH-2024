@@ -1,0 +1,24 @@
+package com.company;
+
+public class factorial_iterativeMethod {
+    // factorial(0) = 1
+    // factorial(n) = n * n-1 * ....1
+    // factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
+    // factorial(n) = n * factorial(n-1)
+    static int factorial_iterativeMethod(int n) {
+        if (n == 1 || n == 0) {
+            return 1;
+        } else {
+            int product = 1;
+            for(int i = 1; i<=n; i++){
+                product *= i;
+            }
+            return product;
+        }
+    }
+    public static void main(String[] args) {
+        int x = 4;
+        System.out.println("The factorial of number x is: " + factorial_iterativeMethod(x));
+
+    }
+}
