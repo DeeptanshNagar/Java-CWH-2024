@@ -44,7 +44,6 @@ public class cwh_86_question5 {
                 attempts++;
             }
         }
-
         if (attempts >= 5) {
             throw new MaxRetriesExceededException();
         }
