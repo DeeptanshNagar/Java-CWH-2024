@@ -30,7 +30,6 @@ public class Hangman {
             System.out.println("Incorrect guesses: " + incorrectGuesses);
             System.out.println("Attempts remaining: " + maxAttempts);
             System.out.print("Enter your guess: ");
-
             char guess = scanner.next().toLowerCase().charAt(0);
 
             if (incorrectGuesses.contains(guess) || new String(guessedWord).contains(String.valueOf(guess))) {
