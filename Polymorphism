@@ -58,6 +58,5 @@ public class cwh_59_polymorphism {
         s.recordVideo();
         s.getNetworks();
         s.callNumber(92574179);
-
     }
 }
