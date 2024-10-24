@@ -85,6 +85,7 @@ public class TicTacToe {
             }
         }
         return bestMove;
+
     }
 
     private static int minimax(boolean isMaximizing) {
